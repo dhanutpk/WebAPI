@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/modernizr-2.0.6-development-only.js")" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">       
+            <div class="float-left">
+                <p class="site-title"><a href="/">ASP.NET Web API</a></p>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        <section class="featured">
+ 
+                @Html.Label("Enter Contact Id");
+                @Html.TextBox("ContactId");
+                <input type="button" name="btnGetById" value="Get Customer By Id JSON"  onclick="GetCustomersByIdJSON()" />
+                <input type="button" name="btnGetById" value="Get Customer By Id AJAX"  onclick="GetCustomersByIdAJAX()" />
+
+                <input type="button" name="btnGetAll" value="Get All Customers AJAX"  onclick="GetCustomersAJAX()"/>
+                <input type="button" name="btnGetAll" value="Get All Customers JSON"  onclick="GetCustomersJSON()"/>
+            
+        </section>
+        <div id="contacts" />
+        <div id="contactEdit">
+            <table>
+                <tr>
+                    <td>@Html.Label("First Name")
+                    </td>
+                    <td>
+                        @Html.TextBox("ContactFName")
+                    </td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Middle Name")
+                    </td>
+                    <td>@Html.TextBox("ContactMName")
+                    </td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Last Name")
+                    </td>
+                    <td>@Html.TextBox("ContactLName")
+                    </td>
+                </tr>
+                <tr>
+                    <td>@Html.Label("Email Address")
+                    </td>
+                    <td>@Html.TextBox("ContactEmail")
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <label id="errMsg" />
+                    </td>
+                </tr>
+            </table>
+            <button id="SaveButton" value="Save Contact" onclick="return UpdateContact();">
+                Save Contact</button>
+                <button id="AddButton" value="Add Contact" onclick="return AddContact();">
+                Add Contact</button>
+                <button id="DeleteButton" value="Delete Contact" onclick="return DeleteContact();">
+                Delete Contact</button>
+        </div>
+    </div>
+</body>
+</html>
+<script language="javascript" type="text/javascript">
+
+function ResetForm()
+{
+     $("#ContactFName").val("");
+     $("#ContactMName").val("");
+     $("#ContactLName").val("");
+     $("#ContactEmail").val("");
+}
+ function GetCustomersAJAX() {
+        $.ajax({
+            url: "/api/values/",
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            success: function(data)
+            {
+            //declare a varialbe which holds html string to be appnended to create a table structure from returned data                
+            var strHTML = "<table width='50%' style='border-width:thin;font-family:Verdana;font-size:small;border-collapse:collapse' border='1'>";
+            strHTML += "<tr><th>Contact ID</th><th>First Name</th><th>Middle Name</th><th>Last Name</th><th>Email Address</th></tr>";
+            //iterate over every object returened using each function                 
+            $.each(data, function (key, val) {
+                //Form a html row string based on the returned Json object                    
+                strHTML += "<tr>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.ContactId + "</td>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.FirstName + "</td>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.MiddleName + "</td>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.LastName + "</td>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.EmailAddress + "</td>";
+                strHTML += "</tr>";
+            });
+            $('#contacts').append(strHTML);
+            },
+            statusCode: {
+                200: function () {
+                    alert("All Contact Displayed successfully using AJAX");
+                }
+            }
+            });
+        };
+        
+    function GetCustomersJSON() {
+        $.getJSON("/api/values", function (data) {
+            //declare a varialbe which holds html string to be appnended to create a table structure from returned data                
+            var strHTML = "<table width='50%' style='border-width:thin;font-family:Verdana;font-size:small;border-collapse:collapse' border='1'>";
+            strHTML += "<tr><th>Contact ID</th><th>First Name</th><th>Middle Name</th><th>Last Name</th><th>Email Address</th></tr>";
+            //iterate over every object returened using each function                 
+            $.each(data, function (key, val) {
+                //Form a html row string based on the returned Json object                    
+                strHTML += "<tr>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.ContactId + "</td>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.FirstName + "</td>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.MiddleName + "</td>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.LastName + "</td>";
+                strHTML += "<td width='20%' style='border:1 solid gray;'>" + val.EmailAddress + "</td>";
+                strHTML += "</tr>";
+            });
+            //append html table to div                
+            $('#contacts').append(strHTML);
+        });
+    }
+
+    function GetCustomersByIdJSON() {
+        //declare a varialbe which holds html string to be appnended to create a table structure from returned data
+        $.getJSON("api/values/" + $("#ContactId").val(),
+             function (data) {
+                 if (data != null) {
+                     $("#ContactFName").val(data.FirstName);
+                     $("#ContactMName").val(data.MiddleName);
+                     $("#ContactLName").val(data.LastName);
+                     $("#ContactEmail").val(data.EmailAddress);
+                     $('#errMsg').html('');
+                 }
+                 else {
+                     alert("Customer does not exists");
+                    ResetForm();
+                 }
+             })
+             .fail(                
+                 function (jqXHR, textStatus, err) 
+                 {                    
+                    $('#errMsg').html('Error: ' + err);                
+                 });
+
+        return false;
+    }
+
+    function GetCustomersByIdAJAX() {
+        //declare a varialbe which holds html string to be appnended to create a table structure from returned data
+        $.ajax({
+        url: "/api/values/" + $("#ContactId").val(),
+            type: "GET",
+            contentType: "application/json;charset=utf-8",
+            success: function(data)
+            {
+                 if (data != null) {
+                     $("#ContactFName").val(data.FirstName);
+                     $("#ContactMName").val(data.MiddleName);
+                     $("#ContactLName").val(data.LastName);
+                     $("#ContactEmail").val(data.EmailAddress);
+                 }
+                 else {
+                     alert("Customer does not exists");
+                    ResetForm();
+                 }
+             },
+             statusCode: {
+                //Web API Post method returns status code as 201                    
+                200: function () {
+                    $('#errMsg').html('Success');
+                    //alert("Contact Displayed successfully using AJAX");
+                    //GetCustomersById();
+                },
+                 400:  function (jqXHR, textStatus, err) 
+                 {                    
+                    $('#errMsg').html('Message: ' + err);                
+                 },
+                 404: function (jqXHR, textStatus, err) 
+                 {                    
+                    $('#errMsg').html('Message: ' + err);                
+                 }
+             }
+           });
+    }
+
+    function UpdateContact() {
+        //create a Json object based on data entered by user            
+        var newContact = {
+            ContactID: $("#ContactId").val(),
+            FirstName: $("#ContactFName").val(),
+            MiddleName: $("#ContactMName").val(),
+            LastName: $("#ContactLName").val(),
+            EmailAddress: $("#ContactEmail").val(),
+        };
+        //call jQuery Ajax method which calls Json.stringify method to convert             
+        //the Json object into string and send it with post method            
+        $.ajax({
+            url: "/api/values/",
+            data: JSON.stringify(newContact),
+            type: "PUT",
+            contentType: "application/json;charset=utf-8",
+            statusCode: {
+                //Web API Post method returns status code as 201                    
+                200: function () {
+                    alert("Employee Updated successfully");
+                    //GetCustomersById();
+                }
+            }
+        });
+        return false;
+    }
+
+    function AddContact() {
+        //create a Json object based on data entered by user            
+        var newContact = {
+            ContactID: $("#ContactId").val(),
+            FirstName: $("#ContactFName").val(),
+            MiddleName: $("#ContactMName").val(),
+            LastName: $("#ContactLName").val(),
+            EmailAddress: $("#ContactEmail").val(),
+        };
+        //call jQuery Ajax method which calls Json.stringify method to convert             
+        //the Json object into string and send it with post method            
+        $.ajax({
+            url: "/api/values/",
+            data: JSON.stringify(newContact),
+            type: "POST",
+            contentType: "application/json;charset=utf-8",
+            statusCode: {
+                //Web API Post method returns status code as 201                    
+                200: function () {
+                    alert("Employee Added successfully");
+                    //GetCustomersById();
+                }
+            }
+        });
+        return false;
+    }
+
+    function DeleteContact()
+    {
+        $.ajax({
+            url:"/api/values/" + $("#ContactId").val(),
+            type: "DELETE",
+            contentType: "application/json;charset=utf-8",
+            statusCode:
+            {
+                200: function() {
+                alert("Contact Deleted Successfully");
+                ResetForm();
+                }
+            }
+        });
+    }
+</script>

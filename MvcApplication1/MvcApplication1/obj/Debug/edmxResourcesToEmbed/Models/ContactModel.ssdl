@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ContactModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="ContactModelStoreContainer">
+    <EntitySet Name="ContactDetail" EntityType="ContactModel.Store.ContactDetail" store:Type="Tables" store:Schema="dbo" store:Name="ContactDetail">
+      <DefiningQuery>SELECT 
+      [ContactDetail].[ContactId] AS [ContactId], 
+      [ContactDetail].[FirstName] AS [FirstName], 
+      [ContactDetail].[MiddleName] AS [MiddleName], 
+      [ContactDetail].[LastName] AS [LastName], 
+      [ContactDetail].[EmailAddress] AS [EmailAddress]
+      FROM [dbo].[ContactDetail] AS [ContactDetail]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'Contact.dbo.ContactDetail' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="ContactDetail">
+    <Key>
+      <PropertyRef Name="ContactId" />
+    </Key>
+    <Property Name="ContactId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="FirstName" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="MiddleName" Type="nchar" MaxLength="10" />
+    <Property Name="LastName" Type="nchar" Nullable="false" MaxLength="10" />
+    <Property Name="EmailAddress" Type="nchar" MaxLength="20" />
+  </EntityType>
+</Schema>
