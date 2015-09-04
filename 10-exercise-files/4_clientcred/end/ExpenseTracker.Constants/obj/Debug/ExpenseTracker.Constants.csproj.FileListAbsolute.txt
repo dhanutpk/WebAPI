@@ -1,0 +1,5 @@
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\4_clientcred\end\ExpenseTracker.Constants\bin\Debug\ExpenseTracker.Constants.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\4_clientcred\end\ExpenseTracker.Constants\bin\Debug\ExpenseTracker.Constants.pdb
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\4_clientcred\end\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.csprojResolveAssemblyReference.cache
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\4_clientcred\end\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\4_clientcred\end\ExpenseTracker.Constants\obj\Debug\ExpenseTracker.Constants.pdb

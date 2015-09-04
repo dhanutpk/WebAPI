@@ -1,0 +1,11 @@
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.Repository.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.Repository.pdb
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\bin\Debug\EntityFramework.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.DTO.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\bin\Debug\ExpenseTracker.DTO.pdb
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\bin\Debug\EntityFramework.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\bin\Debug\EntityFramework.SqlServer.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\obj\Debug\ExpenseTracker.Repository.csprojResolveAssemblyReference.cache
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\obj\Debug\ExpenseTracker.Repository.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\3_userspec\end\ExpenseTracker.Repository\obj\Debug\ExpenseTracker.Repository.pdb
