@@ -1,0 +1,5 @@
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.DTO\bin\Debug\ExpenseTracker.DTO.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.DTO\bin\Debug\ExpenseTracker.DTO.pdb
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.DTO\obj\Debug\ExpenseTracker.DTO.csprojResolveAssemblyReference.cache
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.DTO\obj\Debug\ExpenseTracker.DTO.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.DTO\obj\Debug\ExpenseTracker.DTO.pdb

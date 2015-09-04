@@ -1,0 +1,78 @@
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.IdSrv.dll.config
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.IdSrv.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.IdSrv.pdb
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Antlr3.Runtime.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.Constants.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Security.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Web.Infrastructure.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Newtonsoft.Json.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Owin.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Helpers.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Mvc.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Optimization.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Razor.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.Deployment.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.Razor.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Thinktecture.IdentityServer3.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\WebGrease.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.Constants.pdb
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Security.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Newtonsoft.Json.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Helpers.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Mvc.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Optimization.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Razor.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.Deployment.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.Razor.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Thinktecture.IdentityServer3.pdb
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Thinktecture.IdentityServer3.xml
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Antlr3.Runtime.pdb
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\obj\Debug\ExpenseTracker.IdSrv.csprojResolveAssemblyReference.cache
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\obj\Debug\ExpenseTracker.IdSrv.dll
+D:\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\obj\Debug\ExpenseTracker.IdSrv.pdb
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.IdSrv.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.IdSrv.pdb
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Antlr3.Runtime.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.Constants.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Security.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Security.Facebook.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Web.Infrastructure.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Newtonsoft.Json.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Owin.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Helpers.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Mvc.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Optimization.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Razor.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.Deployment.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.Razor.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Thinktecture.IdentityServer3.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\WebGrease.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\ExpenseTracker.Constants.pdb
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Security.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Microsoft.Owin.Security.Facebook.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Newtonsoft.Json.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Helpers.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Mvc.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Optimization.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.Razor.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.Deployment.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\System.Web.WebPages.Razor.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Thinktecture.IdentityServer3.pdb
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Thinktecture.IdentityServer3.xml
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\bin\Antlr3.Runtime.pdb
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\obj\Debug\ExpenseTracker.IdSrv.dll
+D:\My Data\Samples\Webapi Oauth Examples\building-securing-restful-api-aspdotnet\10-exercise-files\6_refresh\end\ExpenseTracker.IdSrv\obj\Debug\ExpenseTracker.IdSrv.pdb
